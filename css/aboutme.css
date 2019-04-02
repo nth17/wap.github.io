@@ -3,6 +3,7 @@ body{
 }
 h1{
     color: #a6acff;
+    text-align: center;
 }
 h2{
     color: #a6acff;
@@ -21,4 +22,5 @@ em{
     color: #fff965;
     font-family: "Courier 10 Pitch", serif;
     font-weight: bold;
+    font-size: 20px;
 }
