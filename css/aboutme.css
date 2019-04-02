@@ -14,10 +14,6 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
-a.hover{
-    text-underline: darkred;
-}
-
 em{
     color: #fff965;
     font-family: "Courier 10 Pitch", serif;
