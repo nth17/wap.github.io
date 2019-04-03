@@ -16,6 +16,7 @@ a{
     text-decoration: none;
 }
 a:hover{
+    text-decoration-color: darkred;
     text-decoration-line: underline;
 }
 em{
@@ -24,21 +25,12 @@ em{
     font-weight: bold;
     font-size: 20px;
 }
-p::first-letter{
-    float: left;
-    font-weight: bold;
-    initial-letter: 2;
-    font-size: 25px;
-}
-ul{
-    text-space: 12;
-}
-dd{
-    font-family: "Courier 10 Pitch", serif;
-}
-ol{
+ol {
     display: flex;
     flex-direction: column-reverse;
+}
+p::first-letter{
+    font-size: 25px;
 }
 p{
     transform: rotateX(180deg);
