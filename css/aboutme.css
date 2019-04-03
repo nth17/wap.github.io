@@ -1,5 +1,6 @@
 body{
     background-color: dimgray;
+    color: azure;
 }
 h1{
     color: #a6acff;
@@ -14,13 +15,31 @@ a{
     font-weight: bold;
     text-decoration: none;
 }
-a.hover{
-    text-underline: darkred;
+a:hover{
+    text-decoration-line: underline;
 }
-
 em{
     color: #fff965;
     font-family: "Courier 10 Pitch", serif;
     font-weight: bold;
     font-size: 20px;
+}
+p::first-letter{
+    float: left;
+    font-weight: bold;
+    initial-letter: 2;
+    font-size: 25px;
+}
+ul{
+    text-space: 12;
+}
+dd{
+    font-family: "Courier 10 Pitch", serif;
+}
+ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
+p{
+    transform: rotateX(180deg);
 }
